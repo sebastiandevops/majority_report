@@ -2,6 +2,7 @@
 """Function to read csv file
 """
 import pandas as pd
+import numpy as np
 
 def data_reader(filename):
     """Function to read data in CSV file
@@ -40,5 +41,6 @@ def data_reader(filename):
     data['semana'] = data.index.week
     data['mes'] = data.index.month
     data['año'] = data.index.year
+    data.replace('Sin dato', np.nan)
     data.to_csv('/home/sebastian/Holberton/final_project/data.csv')
     return data
