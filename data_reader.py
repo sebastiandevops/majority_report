@@ -33,6 +33,7 @@ def data_reader(filename):
                'seguridad.color',
                'seguridad.permiso',
                'seguridad.unidad_medida'], axis=1, inplace=True)
+    data = data.replace('Sin dato', np.nan)
     for col in data.columns:
         if data[col].dtype == "object":
             data = data.fillna(data[col].value_counts().index[0])
