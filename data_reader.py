@@ -41,6 +41,6 @@ def data_reader(filename):
     data['semana'] = data.index.week
     data['mes'] = data.index.month
     data['año'] = data.index.year
-    data.replace('Sin dato', np.nan)
+    data = data.replace('Sin dato', np.nan)
     data.to_csv('/home/sebastian/Holberton/final_project/data.csv')
     return data
