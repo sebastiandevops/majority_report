@@ -1,21 +1,17 @@
 # Majority Report
 
-Portal to visualize and analyze data on theft of persons in the metropolitan area of ​​Valle de Aburrá during the period between 2010 and 2020
+Majority Report is an academic initiative that arises with the purpose of creating a portal where users can interactively view crime rates in the city of Medellín. The data used to generate the displayed graphics were taken from the open data portal of the Ministry of Information Technologies and Communications and were provided by the Secretary of Security and Coexistence of the Mayor's Office of Medellín. The data contains the information of the complaints actually made for the crime "theft of persons" since 2003. The last update of the database was made on December 23, 2020.
 
-## Team
-
-### Members
+## Members
 
 Sebastián Valencia Sierra.
 
 ## Technologies
 
-* i) __libraries__: Pandas, Matplotlib
+* i) __libraries__: Pandas, Django, Plotly
 * ii) __languages__: Python
 * iii) __platforms__: MySQL
-* iv) __frameworks__: Flask
-* v) __hardware__:
-* vi) __bibliography__:
+* iv) __frameworks__: Django
 
 ## Challenge
 
