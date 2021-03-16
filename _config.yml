@@ -11,7 +11,29 @@ description: "Write an awesome description for your new site here. You can edit 
 people:
 - name: Sebastián Valencia
   pic: 1
-  position: Lead Designer
+  position: Desarrollador
+  social:
+    - title: twitter
+      url: "https://twitter.com/ajinomano"
+    - title: github
+      url: "https://github.com/sebasvalencia726"
+    - title: linkedin
+      url: 'https://www.linkedin.com/in/sebastianvalenciasierra/'
+
+- name: Sebastián Valencia
+  pic: 2
+  position: Diseñador
+  social:
+    - title: twitter
+      url: "https://twitter.com/ajinomano"
+    - title: github
+      url: "https://github.com/sebasvalencia726"
+    - title: linkedin
+      url: 'https://www.linkedin.com/in/sebastianvalenciasierra/'
+
+- name: Sebastián Valencia
+  pic: 3
+  position: Analista
   social:
     - title: twitter
       url: "https://twitter.com/ajinomano"
