@@ -1,5 +1,7 @@
 # Majority Report
 
+![preview](https://user-images.githubusercontent.com/63010971/111236961-0e992800-85c2-11eb-9087-92a3cff97eb3.png)
+
 Majority Report is an academic initiative that arises with the purpose of creating a portal where users can interactively view crime rates in the city of Medellín. The data used to generate the displayed graphics were taken from the open data portal of the Ministry of Information Technologies and Communications and were provided by the Secretary of Security and Coexistence of the Mayor's Office of Medellín. The data contains the information of the complaints actually made for the crime "theft of persons" since 2003. The last update of the database was made on December 23, 2020.
 
 ## Members
