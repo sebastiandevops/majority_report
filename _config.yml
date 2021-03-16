@@ -1,5 +1,5 @@
 url: https://sebasvalencia726.github.io/majority_report/
-baseurl: ""
+baseurl: "https://sebasvalencia726.github.io/majority_report/"
 
 # Site settings
 title: Awesome Title
@@ -62,4 +62,4 @@ address:
 
 # Build settings
 markdown: kramdown
-permalink: https://sebasvalencia726.github.io/majority_report/
+permalink: pretty
