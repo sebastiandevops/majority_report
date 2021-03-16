@@ -577,6 +577,7 @@ section h3.section-subheading {
 
 aside.clients img {
     margin: 50px auto;
+    opacity: 0.5;
 }
 
 section#contact {
