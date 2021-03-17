@@ -55,6 +55,14 @@ contact = 'Mi nombre es Sebastián Valencia Sierra y pueden encontrarme en'\
           ' Linledin: https://www.linkedin.com/in/sebastianvalenciasierra/\n'\
 
 def index(request):
+    """Index method for main page
+
+    Args:
+        request ([type]): [description]
+
+    Returns:
+        HttpResponse: response to render
+    """
     #escribo una cosa aqui
     context = {'title': 'Majority Report Medellín',
                'subtitle': 'Bienvenidos',
@@ -78,6 +86,14 @@ def index(request):
 
 
 def medellincharts(request):
+    """Request method to return charts context
+
+    Args:
+        request ([type]): [description]
+
+    Returns:
+        HttpResponse: response to render
+    """
     #creo key en context que contengan cada una de las fgráficas
     context = {'chart_1_title': "Cantidad de hurtos por año desde el 2003",
                'chart_1':"",
@@ -107,26 +123,3 @@ def medellincharts(request):
 
     html_template = loader.get_template( 'medellincharts.html')
     return HttpResponse(html_template.render(context, request))
-
-#@login_required(login_url="/login/")
-#def pages(request):
-#    context = {}
-    # All resource paths end in .html.
-    # Pick out the html file name from the url. And load that template.
-#    try:
-
-#        load_template      = request.path.split('/')[-1]
-#        context['segment'] = load_template
-
-#        html_template = loader.get_template( load_template )
-#        return HttpResponse(html_template.render(context, request))
-
-#    except template.TemplateDoesNotExist:
-
-#        html_template = loader.get_template( 'page-404.html' )
-#        return HttpResponse(html_template.render(context, request))
-
-#    except:
-#
-#        html_template = loader.get_template( 'page-500.html' )
-#        return HttpResponse(html_template.render(context, request))
